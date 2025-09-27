@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ab39dd488dca14ed6be4c5d3adb84968
+  - enabled: 1
+    path: Assets/Scenes/MainMenuPlay.unity
+    guid: 0e8cf1500cfb149489a21f4bd9e581a1
+  - enabled: 1
+    path: Assets/Scenes/WormholeCutscene.unity
+    guid: 746f8910f87024d7c81b2e82d01224af
+  - enabled: 1
+    path: Assets/Scenes/FullDropCutScene.unity
+    guid: 4514878aaca2f4c12bf6ca010ac2f40e
+  - enabled: 1
     path: Assets/Scenes/GameplayScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:

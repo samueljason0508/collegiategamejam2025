@@ -1,0 +1,2603 @@
+fileFormatVersion: 2
+guid: 39123e5b1e52b40ceac1c5a36663fe5d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb4ac19562e14171825784ee22dd48c
+      internalID: 199699116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bd449ecaa8e42faa58f94e62ed3227
+      internalID: 613604339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dff2d40681cf4a0eb41275a1ef0d334
+      internalID: -1376326207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587b2f514d2c04fa78022e179ce71d78
+      internalID: 1787865175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b9455be1d9c4941b2902cf3c728870
+      internalID: -192362144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b73482ab303f41adad31c6b54a492c4
+      internalID: -942557914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c462881e2ea664feb9a5efb14e6bdd54
+      internalID: -731324675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_7
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f906a4b8d06314acbbfc0600e0fe2d94
+      internalID: 831723543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_8
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80797559ae6d7440b9b30fe4331c879f
+      internalID: -1705153602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa64a4c24711436fb062a326167f798
+      internalID: -1941439986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c87e7a5f77b451789386a050235a1e
+      internalID: 914996276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 139
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4715bad8e7fcb444299b518274d63c55
+      internalID: -1249618425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49c6b8d9c78449388dc27bc4e95a616
+      internalID: 199880042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f901b68c84a47729d89317a7364d79
+      internalID: 887273217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f39f31d8e6543feaded07d59270b3e
+      internalID: 1529934649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18457d7686bfe45bdbd9bde1653f1738
+      internalID: -2034241990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a87eac16e1bd4070ac0eda6d366cbcc
+      internalID: 1305244820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6b9abe3423f4444b1e3bb475fdfa42
+      internalID: -540061795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_18
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88536d5e5af64dad882ef499508c1e2
+      internalID: -704094147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02b007a7e66c4f39a8ac4227536d11b
+      internalID: -684656311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_20
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4992d6e3aea1148d79ad2ce162660370
+      internalID: 1881110443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a2c4caca23d41c692ed18f6ed0e974
+      internalID: -315301931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8f2a838a78a41829d042cf63f6b5b1
+      internalID: 1210432989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 122
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fd154c0acdb489ba25fbf4ade3586b
+      internalID: 188692487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00c9273ef11c4b7aaeae2b1d24a8784
+      internalID: 1392068663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4effa7553662e4aca93b85ff7720ed35
+      internalID: -1171255126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c1575da8cb147bbaecaa30f6fa0620
+      internalID: 1409510701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b024159125d224577912a8a293dde8c6
+      internalID: 1792810479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2634d485f3c57473c87459f9816af8db
+      internalID: -585664975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_29
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be3cecdbe2644935ab245b9257b5db4
+      internalID: -1202220507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_30
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a800f62c65e0c423da9ca7b0b841106c
+      internalID: -646048546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f0ade5ff0154bbb94b70a21f68e1bf
+      internalID: -390963105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_32
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee23f4abbeb814c4e99187273b104a6d
+      internalID: -1406443480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_33
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6bb6e6f8aa9407198d0189c032c005
+      internalID: 1430734559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_34
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068b63c1abb58470b95f1104061c5378
+      internalID: 1126372757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 105
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58d94880547a45e2bd2bd193af551b9
+      internalID: 776198424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85bb4c6ebfb54b7d8e220fef1eb9c9c
+      internalID: -712255298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1232aa96f4d4b8caffad2665be1e67
+      internalID: -65634784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6556863496cd9420ab2972b99e38a40b
+      internalID: 32048468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3593bddcb246947fda287f07a23ca976
+      internalID: -610307097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_40
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15de3b04f32d3484ebfc241745800f61
+      internalID: 1053914336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_41
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54857a18e9c974d26b523f33526be89b
+      internalID: -1670372540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_42
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e5159f67ec347caaf2662ecfa376e4
+      internalID: 2033525681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2d0801873b7427a842379bea5cbbb8
+      internalID: 1793263870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_44
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d12a36bd9c24c85b5f3ce5620d1b36
+      internalID: -1784678463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7552c58f7b6df4d029950e1bf76226c2
+      internalID: -576836519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_46
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e49caf5401044d0f8432ab6930130e1
+      internalID: 17866224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_47
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 88
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1e594b7d363490b80aefba93fdd67b
+      internalID: -1745735415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5327a0d441608450d8f01a6ec09e9d07
+      internalID: 428198128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d23ce9d634447f6a8a15b89948558a
+      internalID: -505505493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f3be248ba984e13931e235eff33433
+      internalID: -2109334685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae7eca03056d423eb76b6f24414fa59
+      internalID: 1496773863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_52
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d651880c0d6c041fc919beb500b61377
+      internalID: -1509317435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_53
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe521e3ab0504ee6a4602a9475b72b9
+      internalID: 61654326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_54
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdcfef8fbbc4476b9e65cca1850aa53
+      internalID: -1804906421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_55
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e66fde0060b949deb7dd92aedbf2f75
+      internalID: 707119992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_56
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3729bc436a5804d8fb3801dcbc4d06fa
+      internalID: -838812463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_57
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff687fabfc5846f7a6a5fc74fb4c62f
+      internalID: 246770662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_58
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9589722e502114bf989477d1668ee066
+      internalID: -913493741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_59
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 71
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f8b4a2879aa4d469dd236f7dae7dcc
+      internalID: 1091382550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b6ba3372e564096a7501013861e273
+      internalID: -113276894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_61
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7b89d6cc122444ba335ce0f4132c07
+      internalID: -1697814770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_62
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1b80fb6d6ce4a50a96bbde932cedf9
+      internalID: 1531879863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee3112babb864b3892a848ae30d55ed
+      internalID: 62250056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_64
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef53eadba917e45b18afcb73bf57a1b2
+      internalID: 660790034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_65
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f12c34478e8c4f6bacb64b285c5a283
+      internalID: -871910728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_66
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2696c611bb145da8d4d712073902b2
+      internalID: 683298496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_67
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a109af79a2f428fa93f363cc67f447
+      internalID: 871701000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_68
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3a28428b85c405f833a261994eb029
+      internalID: -1562226534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_69
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d2df8e0819d435881da33a322a211f
+      internalID: 1287830894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_70
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67127e9d8dfe543ce9cdd214285c5ca7
+      internalID: 130673202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_71
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 54
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42073676190c54171879c068e7d5abcb
+      internalID: -879010050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcc3ec15dfe54faaab62f27e51908fc
+      internalID: -450690122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_73
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca044192324c44b8b5e56f7353ffa05
+      internalID: 1285639789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_74
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0b01d05ae7e4370bb61fd8decc04e1
+      internalID: -1101246015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c6c6bc0075c4a38b0db8bfe820a16f
+      internalID: 924079863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_76
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75b1b64d931946278ad36933287e86b
+      internalID: 792892343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_77
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762a3cf4b095c4baca9e588c09f3d74a
+      internalID: -922153924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_78
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33170dff9db2b42f48decc94a7a931f4
+      internalID: -382633936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_79
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6a79b5e3428419797a51f8c738d7bc
+      internalID: 474618135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_80
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded06627e689445c18c7700c2e9d1f58
+      internalID: -818304112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d485e3ed417ac440bb74984a98f1c8f3
+      internalID: -1706888589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_82
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c48136d621c84bd1a8b2d50f799913e
+      internalID: -994920211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_83
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9240a520ef9d342358b03b6ee982b28b
+      internalID: -598628100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a75733fd59af40beb20f2d3589ae5bb
+      internalID: 1765866745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_85
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e203f6b4bbcde44a6a8f307396f51265
+      internalID: 1085008266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_86
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e88994bdb1d84326b2cd7d64c8ecfa8
+      internalID: 463679839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56f1ef7e60004ec7927fb12a10d3227
+      internalID: 1401448022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_88
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2978a480354564a8bacf06d8efb77be8
+      internalID: 1404643208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_89
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a0f277e7a5c48b5a72b2825540eb6c
+      internalID: -1775201112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_90
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87243852729ca49cbad8e4f98625227c
+      internalID: 914948688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_91
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82273366884f4b669860725a066bc7a
+      internalID: 922699643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_92
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8211c867a463748029b5f4ede9300162
+      internalID: 1708759478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_93
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6411fb656fb91405bb07b119493ce50f
+      internalID: 280511315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_94
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2310b796f1240728d742a461fa745a
+      internalID: -499620911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_95
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 20
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56873e5615764a39b9aca3f35c995a8
+      internalID: 2091175361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_96
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d75d331906b44a496434cd89ac6300
+      internalID: -415740185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_97
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de3c65e6da6941659e03f1e620d8bf6
+      internalID: -189644331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_98
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20464c1aa7b0c4cf29b3979ec3956142
+      internalID: 1361606390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51165ab38be544daca22112c3cc9eb59
+      internalID: -960823130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_100
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3532fcf45454425cb8f465b1e335d86
+      internalID: 128369814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_101
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2405fe04c68da4efd820e3165b9deb4c
+      internalID: -1114560606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_102
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc38a01b010164083944244cff4f16d7
+      internalID: -1595334463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_103
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171e76c1f0c1d4c12927d4dd567d0f45
+      internalID: 197824349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_104
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9289b49a65f5f4586b3f89253ab78bc9
+      internalID: 1010450110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_105
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7dbd2b600d245839c57d627eaa49e8
+      internalID: -745118416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_106
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b44c9667cb5c47f9bdf45e98cbb8d02
+      internalID: -580836909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceRebelsPixel-Regular_107
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dead0b3adc214f419caa63718ae8404
+      internalID: 968900355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b0da565b85a9d41c29b33186ca34a36e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":12.0,"y":9.0},"gridSpriteSize":{"x":12.0,"y":14.0},"gridSpriteOffset":{"x":3.0,"y":3.0},"gridSpritePadding":{"x":3.0,"y":3.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SpaceRebelsPixel-Regular_0: 199699116
+      SpaceRebelsPixel-Regular_1: 613604339
+      SpaceRebelsPixel-Regular_10: 914996276
+      SpaceRebelsPixel-Regular_100: 128369814
+      SpaceRebelsPixel-Regular_101: -1114560606
+      SpaceRebelsPixel-Regular_102: -1595334463
+      SpaceRebelsPixel-Regular_103: 197824349
+      SpaceRebelsPixel-Regular_104: 1010450110
+      SpaceRebelsPixel-Regular_105: -745118416
+      SpaceRebelsPixel-Regular_106: -580836909
+      SpaceRebelsPixel-Regular_107: 968900355
+      SpaceRebelsPixel-Regular_11: -1249618425
+      SpaceRebelsPixel-Regular_12: 199880042
+      SpaceRebelsPixel-Regular_13: 887273217
+      SpaceRebelsPixel-Regular_14: 1529934649
+      SpaceRebelsPixel-Regular_15: -2034241990
+      SpaceRebelsPixel-Regular_16: 1305244820
+      SpaceRebelsPixel-Regular_17: -540061795
+      SpaceRebelsPixel-Regular_18: -704094147
+      SpaceRebelsPixel-Regular_19: -684656311
+      SpaceRebelsPixel-Regular_2: -1376326207
+      SpaceRebelsPixel-Regular_20: 1881110443
+      SpaceRebelsPixel-Regular_21: -315301931
+      SpaceRebelsPixel-Regular_22: 1210432989
+      SpaceRebelsPixel-Regular_23: 188692487
+      SpaceRebelsPixel-Regular_24: 1392068663
+      SpaceRebelsPixel-Regular_25: -1171255126
+      SpaceRebelsPixel-Regular_26: 1409510701
+      SpaceRebelsPixel-Regular_27: 1792810479
+      SpaceRebelsPixel-Regular_28: -585664975
+      SpaceRebelsPixel-Regular_29: -1202220507
+      SpaceRebelsPixel-Regular_3: 1787865175
+      SpaceRebelsPixel-Regular_30: -646048546
+      SpaceRebelsPixel-Regular_31: -390963105
+      SpaceRebelsPixel-Regular_32: -1406443480
+      SpaceRebelsPixel-Regular_33: 1430734559
+      SpaceRebelsPixel-Regular_34: 1126372757
+      SpaceRebelsPixel-Regular_35: 776198424
+      SpaceRebelsPixel-Regular_36: -712255298
+      SpaceRebelsPixel-Regular_37: -65634784
+      SpaceRebelsPixel-Regular_38: 32048468
+      SpaceRebelsPixel-Regular_39: -610307097
+      SpaceRebelsPixel-Regular_4: -192362144
+      SpaceRebelsPixel-Regular_40: 1053914336
+      SpaceRebelsPixel-Regular_41: -1670372540
+      SpaceRebelsPixel-Regular_42: 2033525681
+      SpaceRebelsPixel-Regular_43: 1793263870
+      SpaceRebelsPixel-Regular_44: -1784678463
+      SpaceRebelsPixel-Regular_45: -576836519
+      SpaceRebelsPixel-Regular_46: 17866224
+      SpaceRebelsPixel-Regular_47: -1745735415
+      SpaceRebelsPixel-Regular_48: 428198128
+      SpaceRebelsPixel-Regular_49: -505505493
+      SpaceRebelsPixel-Regular_5: -942557914
+      SpaceRebelsPixel-Regular_50: -2109334685
+      SpaceRebelsPixel-Regular_51: 1496773863
+      SpaceRebelsPixel-Regular_52: -1509317435
+      SpaceRebelsPixel-Regular_53: 61654326
+      SpaceRebelsPixel-Regular_54: -1804906421
+      SpaceRebelsPixel-Regular_55: 707119992
+      SpaceRebelsPixel-Regular_56: -838812463
+      SpaceRebelsPixel-Regular_57: 246770662
+      SpaceRebelsPixel-Regular_58: -913493741
+      SpaceRebelsPixel-Regular_59: 1091382550
+      SpaceRebelsPixel-Regular_6: -731324675
+      SpaceRebelsPixel-Regular_60: -113276894
+      SpaceRebelsPixel-Regular_61: -1697814770
+      SpaceRebelsPixel-Regular_62: 1531879863
+      SpaceRebelsPixel-Regular_63: 62250056
+      SpaceRebelsPixel-Regular_64: 660790034
+      SpaceRebelsPixel-Regular_65: -871910728
+      SpaceRebelsPixel-Regular_66: 683298496
+      SpaceRebelsPixel-Regular_67: 871701000
+      SpaceRebelsPixel-Regular_68: -1562226534
+      SpaceRebelsPixel-Regular_69: 1287830894
+      SpaceRebelsPixel-Regular_7: 831723543
+      SpaceRebelsPixel-Regular_70: 130673202
+      SpaceRebelsPixel-Regular_71: -879010050
+      SpaceRebelsPixel-Regular_72: -450690122
+      SpaceRebelsPixel-Regular_73: 1285639789
+      SpaceRebelsPixel-Regular_74: -1101246015
+      SpaceRebelsPixel-Regular_75: 924079863
+      SpaceRebelsPixel-Regular_76: 792892343
+      SpaceRebelsPixel-Regular_77: -922153924
+      SpaceRebelsPixel-Regular_78: -382633936
+      SpaceRebelsPixel-Regular_79: 474618135
+      SpaceRebelsPixel-Regular_8: -1705153602
+      SpaceRebelsPixel-Regular_80: -818304112
+      SpaceRebelsPixel-Regular_81: -1706888589
+      SpaceRebelsPixel-Regular_82: -994920211
+      SpaceRebelsPixel-Regular_83: -598628100
+      SpaceRebelsPixel-Regular_84: 1765866745
+      SpaceRebelsPixel-Regular_85: 1085008266
+      SpaceRebelsPixel-Regular_86: 463679839
+      SpaceRebelsPixel-Regular_87: 1401448022
+      SpaceRebelsPixel-Regular_88: 1404643208
+      SpaceRebelsPixel-Regular_89: -1775201112
+      SpaceRebelsPixel-Regular_9: -1941439986
+      SpaceRebelsPixel-Regular_90: 914948688
+      SpaceRebelsPixel-Regular_91: 922699643
+      SpaceRebelsPixel-Regular_92: 1708759478
+      SpaceRebelsPixel-Regular_93: 280511315
+      SpaceRebelsPixel-Regular_94: -499620911
+      SpaceRebelsPixel-Regular_95: 2091175361
+      SpaceRebelsPixel-Regular_96: -415740185
+      SpaceRebelsPixel-Regular_97: -189644331
+      SpaceRebelsPixel-Regular_98: 1361606390
+      SpaceRebelsPixel-Regular_99: -960823130
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
