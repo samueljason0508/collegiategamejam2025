@@ -28,6 +28,8 @@ public class PointsAdderOnTouch : MonoBehaviour
             scoreText.text = prefix + newScore;
         }
 
+        // COIN COLLECTION SOUND HERE
+
         Destroy(gameObject);
     }
 }

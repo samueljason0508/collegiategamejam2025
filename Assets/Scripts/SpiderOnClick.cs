@@ -52,6 +52,8 @@ public class SpiderOnClick : MonoBehaviour
     Transform SpawnRocketAt(Vector3 position)
     {
         Transform r;
+
+        // SPAWN ROCKET SOUND HERE
         if (rocketPrefab != null)
         {
             r = Instantiate(rocketPrefab, position, Quaternion.identity);
@@ -146,6 +148,8 @@ public class RocketMover : MonoBehaviour
         // only react when we touch THIS rocket's intended spider
         if (other.transform == target || other == targetCol)
         {
+
+            
             Vector3 pos = target.position;
 
             // destroy spider
@@ -180,6 +184,8 @@ public class RocketMover : MonoBehaviour
                 int newScore = currentScore + pointsToAdd;
                 scoreText.text = (prefix ?? string.Empty) + newScore;
             }
+
+            // EXPLOSION SOUND HERE 
 
             // destroy rocket
             Destroy(gameObject);

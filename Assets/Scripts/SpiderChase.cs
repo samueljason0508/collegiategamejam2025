@@ -48,6 +48,8 @@ public class SpiderChase : MonoBehaviour
             {
                 Debug.LogWarning("No ScreenFadeOut found in the scene!");
                 // fallback: load scene directly
+                // MAYBE ADD LIKE A SCREAM SOUND HERE
+                // MAKE DEATH SOUND HERE
                 UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
             }
         }

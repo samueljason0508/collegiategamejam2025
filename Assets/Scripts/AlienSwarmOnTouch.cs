@@ -21,6 +21,8 @@ public class AlienSwarmOnTouch : MonoBehaviour
 
         int targetOrder = povSR.sortingOrder + 1;
 
+        // WASP SOUND FOR THE DURATION OF THE LIFETIME
+
         for (int i = 0; i < count; i++)
         {
             var go = new GameObject("SwarmImage_" + i);

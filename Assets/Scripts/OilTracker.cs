@@ -72,6 +72,7 @@ ScreenFadeOut fade = Object.FindAnyObjectByType<ScreenFadeOut>();
     {
         Debug.LogWarning("No ScreenFadeOut found in the scene!");
         // fallback: load scene directly
+        // MAKE GAME OVER SOUND HERE
         UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
     }
 }

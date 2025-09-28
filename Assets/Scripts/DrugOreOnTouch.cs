@@ -17,6 +17,8 @@ public class DrugOreOnTouch : MonoBehaviour
 
         }
 
+        // CONFUSED SOUND HERE
+
         Destroy(gameObject);
     }
 }

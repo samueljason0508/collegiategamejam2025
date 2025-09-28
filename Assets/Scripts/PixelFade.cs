@@ -9,7 +9,12 @@ public class PixelFade : MonoBehaviour
     [Header("Fade Settings")]
     public float delayBetween = 0.02f;        // time between each block appearing
 
+    [Header("Audio Settings")]
+    [SerializeField] private string resourcesPath = "Audio/game_over"; // Assets/Resources/Audio/game_over.wav
+    [SerializeField, Range(0f,1f)] private float volume = 1f;
+
     private List<Image> blocks = new List<Image>();
+    private AudioSource src;
 
     void Awake()
     {
@@ -19,14 +24,34 @@ public class PixelFade : MonoBehaviour
             Image img = child.GetComponent<Image>();
             if (img != null)
             {
-                img.color = new Color(img.color.r, img.color.g, img.color.b, 1f); // start transparent
+                img.color = new Color(img.color.r, img.color.g, img.color.b, 1f); // fully opaque at start
                 blocks.Add(img);
             }
         }
+
+        // Ensure an AudioSource exists
+        src = GetComponent<AudioSource>();
+        if (src == null) src = gameObject.AddComponent<AudioSource>();
+        src.loop = true;
+        src.playOnAwake = false;
+        src.spatialBlend = 0f; // 2D sound
+        src.volume = volume;
     }
 
     void Start()
     {
+        // Load and start looping game_over.wav
+        var clip = Resources.Load<AudioClip>(resourcesPath);
+        if (clip != null)
+        {
+            src.clip = clip;
+            src.Play();
+        }
+        else
+        {
+            Debug.LogError($"PixelFade: Could not find AudioClip at Resources/{resourcesPath}");
+        }
+
         StartCoroutine(FadeInBlocks());
     }
 
@@ -41,15 +66,22 @@ public class PixelFade : MonoBehaviour
             blocks[rand] = temp;
         }
 
-        // Show each block instantly (jump alpha from 0 → 1)
+        // Show each block instantly (alpha 0 → 1)
         foreach (Image img in blocks)
         {
-            img.color = new Color(img.color.r, img.color.g, img.color.b, 0); 
+            img.color = new Color(img.color.r, img.color.g, img.color.b, 0);
             yield return new WaitForSeconds(delayBetween);
         }
 
-        // Small delay before scene change
         yield return new WaitForSeconds(0.2f);
+    }
 
+    // --- Call this from the Play Again button's OnClick() ---
+    public void StopGameOverMusic()
+    {
+        if (src != null && src.isPlaying)
+        {
+            src.Stop();
+        }
     }
 }
