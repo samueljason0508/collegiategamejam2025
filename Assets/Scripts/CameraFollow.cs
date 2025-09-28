@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public PlayerController player; 
+    public PlayerControllerMain player; 
     public bool followY = true;
 
     void FixedUpdate()
