@@ -1,61 +1,45 @@
 using UnityEngine;
 
-public class SpiderChaseDebug : MonoBehaviour
+public class SpiderChase : MonoBehaviour
 {
-    [Header("Target")]
-    [SerializeField] private Transform target;        // drag Player here, or leave null to auto-find by tag
-    [SerializeField] private string playerTag = "Player";
+    public Transform target;          
+    public string playerTag = "Player";
+    public float speed = 3f;
+    public float stopDistance = 0.3f;
+    public bool lockZ = true;
 
-    [Header("Movement")]
-    [SerializeField] private float speed = 3f;
-    [SerializeField] private float stopDistance = 0.3f;
-    [SerializeField] private bool lockZ = true;       // keep spider’s Z the same as its current Z
-
-    [Header("Debug (read-only)")]
-    [SerializeField] private float currentDistance;
-    [SerializeField] private bool canChase;
-
-    private void Start()
+    void Start()
     {
         if (target == null)
             target = GameObject.FindWithTag(playerTag)?.transform;
 
-        if (target == null)
-            Debug.LogError($"[SpiderChaseDebug2D] No target found. Tag your player '{playerTag}' or assign the Transform.", this);
-
-        if (Time.timeScale == 0f)
-            Debug.LogWarning("[SpiderChaseDebug2D] Time.timeScale is 0 (paused). Movement won’t update.", this);
-
-        if (speed <= 0f)
-            Debug.LogWarning("[SpiderChaseDebug2D] Speed is <= 0. Set a positive speed.", this);
-
-        if (stopDistance < 0f)
-            Debug.LogWarning("[SpiderChaseDebug2D] stopDistance is negative. Set to >= 0.", this);
+        if (target == null) { enabled = false; }
     }
 
-    private void Update()
+    void Update()
     {
-        if (target == null) { canChase = false; return; }
+        if (target == null) return;
 
         Vector3 pos = transform.position;
         Vector3 tpos = target.position;
+        if (lockZ) tpos.z = pos.z;
 
-        if (lockZ) tpos.z = pos.z; // keep depth constant for 2D
+        if (Vector2.Distance(pos, tpos) <= stopDistance) return;
 
-        currentDistance = Vector2.Distance(pos, tpos);
-
-        // Early outs with clear reasons:
-        if (speed <= 0f) { canChase = false; return; }
-        if (currentDistance <= stopDistance) { canChase = false; return; }
-
-        canChase = true;
         transform.position = Vector2.MoveTowards(pos, tpos, speed * Time.deltaTime);
     }
 
-    private void OnDrawGizmosSelected()
+    // Fires if either collider is marked "Is Trigger"
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (target == null) return;
-        Gizmos.DrawLine(transform.position, new Vector3(target.position.x, target.position.y, lockZ ? transform.position.z : target.position.z));
-        Gizmos.DrawWireSphere(transform.position, stopDistance);
+        if (other.gameObject.name == "Player")
+            Debug.Log("Game Over");
+    }
+
+    // Fires if using non-trigger colliders
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.name == "Player")
+            Debug.Log("Game Over");
     }
 }
