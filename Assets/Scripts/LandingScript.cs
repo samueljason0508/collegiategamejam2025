@@ -11,7 +11,7 @@ public class LandingScript : MonoBehaviour
     public float frameRate = 0.05f;  // Seconds per frame
 
     [Header("Scene Settings")]
-    public string nextSceneName;     // Scene to load after cutscene
+    public string nextSceneName = "Current";     // Scene to load after cutscene
 
     private void Start()
     {

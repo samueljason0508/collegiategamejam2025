@@ -856,7 +856,7 @@ MonoBehaviour:
   - {fileID: 221669843, guid: 111eab239abf749adbbaf14d6e5e3b2b, type: 3}
   - {fileID: 1263883931, guid: 111eab239abf749adbbaf14d6e5e3b2b, type: 3}
   frameRate: 0.1
-  nextSceneName: 
+  nextSceneName: Current
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
