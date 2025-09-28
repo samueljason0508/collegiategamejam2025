@@ -58,8 +58,21 @@ public class OilTracker : MonoBehaviour
         }
     }
 
-    void OnFinish()
+void OnFinish()
+{
+    Debug.Log("Run Out");
+
+    // Trigger the fade out instead of immediately loading the scene
+    ScreenFadeOut fade = FindObjectOfType<ScreenFadeOut>();
+    if (fade != null)
     {
-        Debug.Log("Run Out");
+        fade.StartFadeOut();
     }
+    else
+    {
+        Debug.LogWarning("No ScreenFadeOut found in the scene!");
+        // fallback: load scene directly
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+    }
+}
 }
