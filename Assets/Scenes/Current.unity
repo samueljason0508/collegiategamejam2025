@@ -1496,16 +1496,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 548f539918bc04325bd221f774b8ef42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpiderChase
-  target: {fileID: 1777981819}
+  target: {fileID: 1997978396}
   playerTag: Player
-  speed: 3
+  speed: 15
   stopDistance: 0.3
   lockZ: 1
---- !u!4 &1777981819 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5032726119307569991, guid: 05e62dad524384eaba2cf6b4d5091798, type: 3}
-  m_PrefabInstance: {fileID: 5675225894246176253}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1778992948
 GameObject:
   m_ObjectHideFlags: 0
