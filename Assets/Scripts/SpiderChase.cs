@@ -39,7 +39,19 @@ public class SpiderChase : MonoBehaviour
     // Fires if using non-trigger colliders
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.name == "Player")
-            Debug.Log("Game Over");
+    Debug.Log("Run Out");
+
+    // Trigger the fade out instead of immediately loading the scene
+    ScreenFadeOut fade = FindObjectOfType<ScreenFadeOut>();
+    if (fade != null)
+    {
+        fade.StartFadeOut();
+    }
+    else
+    {
+        Debug.LogWarning("No ScreenFadeOut found in the scene!");
+        // fallback: load scene directly
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+    }
     }
 }
