@@ -40,7 +40,6 @@ public class AudioManager : MonoBehaviour
         // simple singleton
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
-        DontDestroyOnLoad(gameObject);
 
         // setup sources if missing
         if (!musicSource) musicSource = gameObject.AddComponent<AudioSource>();
