@@ -341,9 +341,9 @@ MonoBehaviour:
   entityPrefab: {fileID: 736093162}
   cam: {fileID: 1014645857}
   backgroundSprites:
-  - {fileID: 440551455}
-  - {fileID: 440551455}
-  - {fileID: 602723721}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1278244842}
   player: {fileID: 1997978396}
   maxEntities: 5
@@ -402,9 +402,9 @@ MonoBehaviour:
   entityPrefab: {fileID: 1757186444}
   cam: {fileID: 1014645857}
   backgroundSprites:
-  - {fileID: 440551455}
-  - {fileID: 440551455}
-  - {fileID: 602723721}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1278244842}
   player: {fileID: 1997978396}
   maxEntities: 5
@@ -700,8 +700,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 69.8, y: -45.1, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 6.4000006, y: 6.4000006, z: 3.3333335}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1545875698}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -752,11 +752,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fdcac9e86a35245d39ceadecda9055d9, type: 3}
+  m_Sprite: {fileID: 506443944, guid: f25da64f8690e5549b40a91c0b1ef157, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 2
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -927,9 +927,9 @@ MonoBehaviour:
   entityPrefab: {fileID: 1777981812}
   cam: {fileID: 1014645857}
   backgroundSprites:
-  - {fileID: 440551455}
-  - {fileID: 440551455}
-  - {fileID: 602723721}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1278244842}
   player: {fileID: 1997978396}
   maxEntities: 5
@@ -1363,9 +1363,9 @@ MonoBehaviour:
   entityPrefab: {fileID: 1135117057}
   cam: {fileID: 1014645857}
   backgroundSprites:
-  - {fileID: 440551455}
-  - {fileID: 440551455}
-  - {fileID: 602723721}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1278244842}
   player: {fileID: 1997978396}
   maxEntities: 5
@@ -1531,9 +1531,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CombinedBackgroundScroller
   backgroundSprites:
   - {fileID: 1278244842}
-  - {fileID: 602723721}
-  - {fileID: 1128607320}
-  - {fileID: 440551455}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   cam: {fileID: 1014645857}
 --- !u!1 &1555828652
 GameObject:
@@ -1897,9 +1897,9 @@ MonoBehaviour:
   entityPrefab: {fileID: 2015733777}
   cam: {fileID: 1014645857}
   backgroundSprites:
-  - {fileID: 440551455}
-  - {fileID: 440551455}
-  - {fileID: 602723721}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1278244842}
   player: {fileID: 1997978396}
   maxEntities: 5
