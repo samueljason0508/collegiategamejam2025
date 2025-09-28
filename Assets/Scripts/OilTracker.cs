@@ -63,7 +63,7 @@ void OnFinish()
     Debug.Log("Run Out");
 
     // Trigger the fade out instead of immediately loading the scene
-    ScreenFadeOut fade = FindObjectOfType<ScreenFadeOut>();
+ScreenFadeOut fade = Object.FindAnyObjectByType<ScreenFadeOut>();
     if (fade != null)
     {
         fade.StartFadeOut();
