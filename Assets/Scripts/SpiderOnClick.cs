@@ -1,15 +1,21 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using TMPro;
 
 [RequireComponent(typeof(Collider2D))]
 public class SpiderOnClick : MonoBehaviour
 {
     public Transform player;        // set your Player transform
     public Transform rocketPrefab;  // prefab or leave null to spawn a simple capsule at runtime
-    public float rocketSpeed = 10f;
-
     public Transform splatPrefab;   // optional
+
+    public float rocketSpeed = 10f;
     public float lifetime = 3f;
+
+    public int pointsToAdd = 10;
+    public string prefix = "Points: ";
+    public TextMeshProUGUI scoreText;
 
     public void OnClick(InputAction.CallbackContext context)
     {
@@ -18,7 +24,11 @@ public class SpiderOnClick : MonoBehaviour
         var cam = Camera.main;
         if (cam == null || player == null) return;
 
-        Vector2 screenPos = Mouse.current.position.ReadValue();
+        // Support mouse & touch; fall back if Mouse.current is null
+        Vector2 screenPos = Mouse.current != null
+            ? Mouse.current.position.ReadValue()
+            : (Vector2)Input.mousePosition;
+
         var ray = cam.ScreenPointToRay(screenPos);
         var hit = Physics2D.GetRayIntersection(ray);
 
@@ -28,7 +38,15 @@ public class SpiderOnClick : MonoBehaviour
         // spawn the rocket from the player, aimed at THIS spider
         var rocketT = SpawnRocketAt(player.position);
         var mover = rocketT.gameObject.AddComponent<RocketMover>();
-        mover.Init(target: transform, speed: rocketSpeed, splatPrefab: splatPrefab, splatLifetime: lifetime);
+        mover.Init(
+            target: transform,
+            speed: rocketSpeed,
+            splatPrefab: splatPrefab,
+            splatLifetime: lifetime,
+            scoreText: scoreText,
+            prefix: prefix,
+            pointsToAdd: pointsToAdd
+        );
     }
 
     Transform SpawnRocketAt(Vector3 position)
@@ -55,7 +73,7 @@ public class SpiderOnClick : MonoBehaviour
         // physics (needed for trigger events)
         var rb = r.GetComponent<Rigidbody2D>();
         if (rb == null) rb = r.gameObject.AddComponent<Rigidbody2D>();
-        rb.isKinematic = true;
+        rb.bodyType = RigidbodyType2D.Kinematic;   // <- correct for 2D
         rb.gravityScale = 0f;
 
         var col = r.GetComponent<Collider2D>();
@@ -67,21 +85,37 @@ public class SpiderOnClick : MonoBehaviour
 }
 
 // Helper mover (same file)
-class RocketMover : MonoBehaviour
+public class RocketMover : MonoBehaviour
 {
     Transform target;
     float speed;
     Transform splatPrefab;
     float splatLifetime;
-
     Collider2D targetCol;
 
-    public void Init(Transform target, float speed, Transform splatPrefab, float splatLifetime)
+    // scoring refs (passed in from SpiderOnClick)
+    TextMeshProUGUI scoreText;
+    string prefix;
+    int pointsToAdd;
+
+    public void Init(
+        Transform target,
+        float speed,
+        Transform splatPrefab,
+        float splatLifetime,
+        TextMeshProUGUI scoreText,
+        string prefix,
+        int pointsToAdd)
     {
         this.target = target;
         this.speed = Mathf.Max(0f, speed);
         this.splatPrefab = splatPrefab;
         this.splatLifetime = splatLifetime;
+
+        this.scoreText = scoreText;
+        this.prefix = prefix ?? string.Empty;
+        this.pointsToAdd = pointsToAdd;
+
         targetCol = target ? target.GetComponent<Collider2D>() : null;
     }
 
@@ -94,11 +128,15 @@ class RocketMover : MonoBehaviour
         }
 
         // face and move toward target
-        Vector3 dir = (target.position - transform.position).normalized;
-        if (dir.sqrMagnitude > 0f)
-            transform.up = dir; // orient "nose" toward spider
+        Vector3 dir = (target.position - transform.position);
+        float distSq = dir.sqrMagnitude;
 
-        transform.position += dir * speed * Time.deltaTime;
+        if (distSq > 0.0001f)
+        {
+            dir.Normalize();
+            transform.up = dir; // orient "nose" toward spider
+            transform.position += dir * speed * Time.deltaTime;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -118,6 +156,29 @@ class RocketMover : MonoBehaviour
             {
                 var s = Instantiate(splatPrefab, pos, Quaternion.identity);
                 Destroy(s.gameObject, splatLifetime);
+            }
+
+            // update score safely
+            if (scoreText != null)
+            {
+                int currentScore = 0;
+
+                // Extract number after the prefix if present
+                if (!string.IsNullOrEmpty(scoreText.text) &&
+                    !string.IsNullOrEmpty(prefix) &&
+                    scoreText.text.StartsWith(prefix))
+                {
+                    string numberPart = scoreText.text.Substring(prefix.Length);
+                    int.TryParse(numberPart, out currentScore);
+                }
+                else
+                {
+                    // Try parse entire text if no prefix match
+                    int.TryParse(scoreText.text, out currentScore);
+                }
+
+                int newScore = currentScore + pointsToAdd;
+                scoreText.text = (prefix ?? string.Empty) + newScore;
             }
 
             // destroy rocket

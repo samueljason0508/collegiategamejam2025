@@ -1914,9 +1914,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpiderOnClick
   player: {fileID: 1997978396}
   rocketPrefab: {fileID: 909007475}
-  rocketSpeed: 10
   splatPrefab: {fileID: 1922020564}
+  rocketSpeed: 9.91
   lifetime: 3
+  pointsToAdd: 10
+  prefix: 'Points: '
+  scoreText: {fileID: 1366030064}
 --- !u!114 &1777981814
 MonoBehaviour:
   m_ObjectHideFlags: 0
