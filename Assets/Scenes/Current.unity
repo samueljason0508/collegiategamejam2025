@@ -2958,6 +2958,10 @@ PrefabInstance:
       propertyPath: rocketPrefab
       value: 
       objectReference: {fileID: 909007475}
+    - target: {fileID: 8854064757890603699, guid: 05e62dad524384eaba2cf6b4d5091798, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5901114978191326654, guid: 05e62dad524384eaba2cf6b4d5091798, type: 3}
     - {fileID: 2306310871279257975, guid: 05e62dad524384eaba2cf6b4d5091798, type: 3}
