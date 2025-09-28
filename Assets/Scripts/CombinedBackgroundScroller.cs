@@ -2,60 +2,47 @@ using UnityEngine;
 
 public class CombinedBackgroundScroller : MonoBehaviour
 {
-    public Transform[] backgroundSprites; // All 4 backgrounds go here
+    public Transform[] backgroundSprites; // 4 sprites: BL, BR, TL, TR
     public Camera cam;
-    
-    private float backgroundWidth;
-    private float backgroundHeight;
-    private Vector3 lastCameraPos;
-    
+
+    float tileW, tileH;
+
     void Start()
     {
-        backgroundWidth = backgroundSprites[0].GetComponent<SpriteRenderer>().bounds.size.x;
-        backgroundHeight = backgroundSprites[0].GetComponent<SpriteRenderer>().bounds.size.y;
-        lastCameraPos = cam.transform.position;
-        
-        // Position all 4 backgrounds in a 2x2 grid
-        backgroundSprites[0].position = new Vector3(0, 0, 0);                           // Bottom-left
-        backgroundSprites[1].position = new Vector3(backgroundWidth, 0, 0);            // Bottom-right
-        backgroundSprites[2].position = new Vector3(0, backgroundHeight, 0);           // Top-left
-        backgroundSprites[3].position = new Vector3(backgroundWidth, backgroundHeight, 0); // Top-right
+        var sr = backgroundSprites[0].GetComponent<SpriteRenderer>();
+        tileW = sr.bounds.size.x;
+        tileH = sr.bounds.size.y;
+
+        // Align the grid so the camera begins inside the bottom-left tile
+        Vector3 c = cam.transform.position;
+        float baseX = Mathf.Floor(c.x / tileW) * tileW;
+        float baseY = Mathf.Floor(c.y / tileH) * tileH;
+
+        // Place 2×2 tiles
+        backgroundSprites[0].position = new Vector3(baseX,          baseY,          0); // BL
+        backgroundSprites[1].position = new Vector3(baseX + tileW,  baseY,          0); // BR
+        backgroundSprites[2].position = new Vector3(baseX,          baseY + tileH,  0); // TL
+        backgroundSprites[3].position = new Vector3(baseX + tileW,  baseY + tileH,  0); // TR
     }
-    
+
     void Update()
     {
-        Vector3 cameraMovement = cam.transform.position - lastCameraPos;
-        
-        // Move all backgrounds
-        foreach (Transform bg in backgroundSprites)
-        {
-            bg.position -= new Vector3(cameraMovement.x, cameraMovement.y, 0);
-        }
-        
-        // Loop each background when it goes off screen
+        Vector3 camPos = cam.transform.position;
+
         for (int i = 0; i < backgroundSprites.Length; i++)
         {
-            // Horizontal looping
-            if (backgroundSprites[i].position.x < cam.transform.position.x - backgroundWidth)
-            {
-                backgroundSprites[i].position = new Vector3(backgroundSprites[i].position.x + (backgroundWidth * 2), backgroundSprites[i].position.y, backgroundSprites[i].position.z);
-            }
-            if (backgroundSprites[i].position.x > cam.transform.position.x + backgroundWidth)
-            {
-                backgroundSprites[i].position = new Vector3(backgroundSprites[i].position.x - (backgroundWidth * 2), backgroundSprites[i].position.y, backgroundSprites[i].position.z);
-            }
-            
-            // Vertical looping (both directions)
-            if (backgroundSprites[i].position.y < cam.transform.position.y - backgroundHeight)
-            {
-                backgroundSprites[i].position = new Vector3(backgroundSprites[i].position.x, backgroundSprites[i].position.y + (backgroundHeight * 2), backgroundSprites[i].position.z);
-            }
-            if (backgroundSprites[i].position.y > cam.transform.position.y + backgroundHeight)
-            {
-                backgroundSprites[i].position = new Vector3(backgroundSprites[i].position.x, backgroundSprites[i].position.y - (backgroundHeight * 2), backgroundSprites[i].position.z);
-            }
+            var bg = backgroundSprites[i];
+            Vector3 p = bg.position;
+
+            // Wrap horizontally
+            if (p.x < camPos.x - tileW)       p.x += tileW * 2f;
+            else if (p.x > camPos.x + tileW)  p.x -= tileW * 2f;
+
+            // Wrap vertically
+            if (p.y < camPos.y - tileH)       p.y += tileH * 2f;
+            else if (p.y > camPos.y + tileH)  p.y -= tileH * 2f;
+
+            bg.position = p;
         }
-        
-        lastCameraPos = cam.transform.position;
     }
 }

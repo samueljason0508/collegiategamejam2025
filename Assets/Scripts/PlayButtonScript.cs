@@ -5,7 +5,7 @@ using System.Collections;
 public class PlayButtonScript : MonoBehaviour
 {
     [Header("Music Settings")]
-    [SerializeField] private string resourcesPath = "Audio/Menu-1"; // Assets/Resources/Audio/Menu-1.wav
+    [SerializeField] private string resourcesPath = "Audio/Menu-2"; // Assets/Resources/Audio/Menu-1.wav
     [SerializeField, Range(0f,1f)] private float volume = 0.7f;
     [SerializeField] private bool playOnStart = true;
     [SerializeField] private bool fadeOutOnPlay = false;
