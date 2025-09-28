@@ -38,6 +38,9 @@ public class SpiderChase : MonoBehaviour
         if (!gameOverTriggered && other.gameObject.name == "Player")
         {
             Debug.Log("GAME FUCKING OVER");
+                // Trigger the fade out instead of immediately loading the scene
+ScreenFadeOut fade = Object.FindAnyObjectByType<ScreenFadeOut>();
+fade.StartFadeOut();
         }
 
     }
