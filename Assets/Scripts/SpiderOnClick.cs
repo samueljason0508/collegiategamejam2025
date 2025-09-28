@@ -186,7 +186,15 @@ public class RocketMover : MonoBehaviour
             }
 
             // EXPLOSION SOUND HERE 
-
+            // EXPLOSION SOUND HERE 
+            var deathClip = Resources.Load<AudioClip>("Audio/spider_death"); // no extension
+            if (deathClip != null) {
+                AudioSource.PlayClipAtPoint(deathClip, pos, 1f); // play at spider position, volume 1
+            }
+            else
+            {
+            Debug.LogError("RocketMover: Could not find AudioClip at Resources/Audio/spider_death");
+            }
             // destroy rocket
             Destroy(gameObject);
         }
