@@ -73,7 +73,7 @@ public class SpiderOnClick : MonoBehaviour
         // physics (needed for trigger events)
         var rb = r.GetComponent<Rigidbody2D>();
         if (rb == null) rb = r.gameObject.AddComponent<Rigidbody2D>();
-        rb.bodyType = RigidbodyType2D.Kinematic;   // <- correct for 2D
+        rb.bodyType = RigidbodyType2D.Kinematic;   
         rb.gravityScale = 0f;
 
         var col = r.GetComponent<Collider2D>();
