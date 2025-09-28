@@ -1452,14 +1452,14 @@ RectTransform:
   m_GameObject: {fileID: 1366030062}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6733711, y: 1.6733711, z: 1.6733711}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1778992952}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -212.8, y: 104.3}
+  m_AnchoredPosition: {x: -598, y: -260}
   m_SizeDelta: {x: 19.8371, y: 30.8618}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1366030064
@@ -1484,8 +1484,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Points: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1509,8 +1509,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -127.98163, w: 0}
+  m_margin: {x: 2.7304525, y: 0, z: -483.20917, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1718,7 +1718,7 @@ PrefabInstance:
       objectReference: {fileID: 1366030064}
     - target: {fileID: 1422360271092388961, guid: 33c1ef91cd2764735b3767301818ce45, type: 3}
       propertyPath: pointsToAdd
-      value: 500
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1766889097385258568, guid: 33c1ef91cd2764735b3767301818ce45, type: 3}
       propertyPath: m_Sprite
@@ -2536,7 +2536,7 @@ RectTransform:
   m_GameObject: {fileID: 2059916863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6733711, y: 1.6733711, z: 1.6733711}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2079610054}
@@ -2544,7 +2544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195, y: 47}
+  m_AnchoredPosition: {x: -568, y: -132}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2059916865
@@ -2623,8 +2623,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 500
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3feffeeb0396a484cb6af957b0d07398, type: 2}
+  m_sharedMaterial: {fileID: 4926070637604448472, guid: 3feffeeb0396a484cb6af957b0d07398, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2716,8 +2716,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 132, y: -4.4}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 88.035, y: -39.4}
+  m_SizeDelta: {x: 226.0695, y: 26.9975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2079610055
 MonoBehaviour:
@@ -2818,7 +2818,7 @@ PrefabInstance:
       objectReference: {fileID: 1366030064}
     - target: {fileID: 1422360271092388961, guid: 33c1ef91cd2764735b3767301818ce45, type: 3}
       propertyPath: pointsToAdd
-      value: 500
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1766889097385258568, guid: 33c1ef91cd2764735b3767301818ce45, type: 3}
       propertyPath: m_Sprite

@@ -9,7 +9,7 @@ public class DrugOreOnTouch : MonoBehaviour
         if (!(other.gameObject.name == "Player")) return;
 
 
-        var pc = other.GetComponent<PlayerController>();
+        var pc = other.GetComponentInParent<PlayerController>();
         if (pc != null)
         {
             // Option A: temporary flip
