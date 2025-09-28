@@ -39,8 +39,17 @@ public class SpiderChase : MonoBehaviour
         {
             Debug.Log("GAME FUCKING OVER");
                 // Trigger the fade out instead of immediately loading the scene
-ScreenFadeOut fade = Object.FindAnyObjectByType<ScreenFadeOut>();
-fade.StartFadeOut();
+            ScreenFadeOut fade = Object.FindAnyObjectByType<ScreenFadeOut>();
+            if (fade != null)
+            {
+                fade.StartFadeOut();
+            }
+            else
+            {
+                Debug.LogWarning("No ScreenFadeOut found in the scene!");
+                // fallback: load scene directly
+                UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+            }
         }
 
     }
