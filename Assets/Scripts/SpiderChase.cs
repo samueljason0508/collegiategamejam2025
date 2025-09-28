@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class SpiderChase : MonoBehaviour
 {
-    public Transform target;          
+    public Transform target;
     public string playerTag = "Player";
     public float speed = 3f;
     public float stopDistance = 0.3f;
     public bool lockZ = true;
 
-        private bool gameOverTriggered = false;
+    private bool gameOverTriggered = false;
 
 
     void Start()
@@ -35,39 +35,10 @@ public class SpiderChase : MonoBehaviour
     // Triggered if colliders are marked "Is Trigger"
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!gameOverTriggered && other.CompareTag(playerTag))
-            TriggerGameOver();
-    }
+        if (!gameOverTriggered && other.gameObject.name == "Player")
+        {
+            Debug.Log("GAME FUCKING OVER");
+        }
 
-    // Triggered if using non-trigger colliders
-void OnCollisionEnter2D(Collision2D other)
-{
-    if (!gameOverTriggered && other.gameObject.CompareTag(playerTag))
-        TriggerGameOver();
-}
-
-    private void TriggerGameOver()
-    {
-        gameOverTriggered = true;
-        Debug.Log("Game Over");
-
-
-
-ScreenFadeOut fade = Object.FindAnyObjectByType<ScreenFadeOut>();
-    if (fade != null)
-    {
-        fade.StartFadeOut();
-    }
-    else
-    {
-        Debug.LogWarning("No ScreenFadeOut found in the scene!");
-        // fallback: load scene directly
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
-    }
-
-
-        // Option 2: Or trigger your pixel fade/transition system instead
-        // Example:
-        // PixelFadeManager.Instance.StartFadeOutThenGameOver();
     }
 }
