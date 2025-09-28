@@ -7,49 +7,74 @@ using System.Collections;
 public class PlanetButtonScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [Header("Image Settings")]
-    public Image planetImage;        // Drag the planet Image component here
-    public Sprite normalSprite;      // Default planet sprite
-    public Sprite hoverSprite;       // Sprite when hovered over
+    public Image planetImage;
+    public Sprite normalSprite;
+    public Sprite hoverSprite;
 
     [Header("Fade Settings")]
-    public Image fadeOverlay;        // Fullscreen black Image (UI) for fade out
-    public float fadeDuration = 1f;  // Duration of fade
+    public Image fadeOverlay;
+    public float fadeDuration = 1f;
 
     [Header("Scene Settings")]
-    public string nextSceneName = "WormholeCutscene"; // Scene to load after click
+    public string nextSceneName = "WormholeCutscene";
+
+    [Header("Audio Settings")]
+    [SerializeField] private string resourcesPath = "Audio/Planet"; // Assets/Resources/Audio/Planet.wav
+    [SerializeField, Range(0f,1f)] private float volume = 0.7f;
 
     private bool isTransitioning = false;
+    private AudioSource src;
 
-    // Hover enter
+    void Awake()
+    {
+        // Set up AudioSource
+        src = GetComponent<AudioSource>();
+        if (!src) src = gameObject.AddComponent<AudioSource>();
+
+        src.loop = true;
+        src.playOnAwake = false;
+        src.spatialBlend = 0f;
+        src.volume = volume;
+
+        // Load and play Planet.wav
+        var clip = Resources.Load<AudioClip>(resourcesPath);
+        if (clip != null)
+        {
+            src.clip = clip;
+            src.Play();
+        }
+        else
+        {
+            Debug.LogError($"PlanetButtonScript: Could not find clip at Resources/{resourcesPath}");
+        }
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (!isTransitioning && planetImage != null && hoverSprite != null)
+        if (!isTransitioning && planetImage && hoverSprite)
             planetImage.sprite = hoverSprite;
     }
 
-    // Hover exit
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (!isTransitioning && planetImage != null && normalSprite != null)
+        if (!isTransitioning && planetImage && normalSprite)
             planetImage.sprite = normalSprite;
     }
 
-    // Called when the planet is clicked
     public void OnClick()
     {
         if (!isTransitioning)
             StartCoroutine(FadeAndLoadScene());
     }
 
-    // Coroutine for fading and loading scene
     private IEnumerator FadeAndLoadScene()
     {
         isTransitioning = true;
 
-        if (fadeOverlay != null)
+        if (fadeOverlay)
         {
             fadeOverlay.gameObject.SetActive(true);
-            fadeOverlay.color = new Color(0, 0, 0, 0); // start transparent
+            fadeOverlay.color = new Color(0, 0, 0, 0);
 
             float elapsed = 0f;
             while (elapsed < fadeDuration)
@@ -63,10 +88,11 @@ public class PlanetButtonScript : MonoBehaviour, IPointerEnterHandler, IPointerE
             fadeOverlay.color = Color.black;
         }
 
-        // Wait a tiny moment after fade
         yield return new WaitForSeconds(0.1f);
 
-        // Load the next scene
+        // Stop music before loading
+        if (src && src.isPlaying) src.Stop();
+
         SceneManager.LoadScene(nextSceneName);
     }
 }
