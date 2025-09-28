@@ -11,7 +11,11 @@ public class LandingScript : MonoBehaviour
     public float frameRate = 0.05f;  // Seconds per frame
 
     [Header("Scene Settings")]
-    public string nextSceneName = "Current";     // Scene to load after cutscene
+    public string nextSceneName = "Current"; // Scene to load after cutscene
+
+    [Header("Audio Settings")]
+    [SerializeField] private string resourcesPath = "Audio/retro_rocket"; // Assets/Resources/Audio/swirl.wav
+    [SerializeField, Range(0f,1f)] private float volume = 1f;
 
     private void Start()
     {
@@ -23,6 +27,19 @@ public class LandingScript : MonoBehaviour
 
     private IEnumerator PlayCutscene()
     {
+        // --- Play swirl.wav once at the start ---
+        var clip = Resources.Load<AudioClip>(resourcesPath);
+        if (clip != null)
+        {
+            // PlayOneShot = plays once, does not loop, doesn’t overwrite other clips
+            AudioSource.PlayClipAtPoint(clip, Vector3.zero, volume);
+        }
+        else
+        {
+            Debug.LogError($"LandingScript: Could not find clip at Resources/{resourcesPath}");
+        }
+
+        // --- Show frames ---
         foreach (Sprite frame in frames)
         {
             cutsceneImage.sprite = frame;
