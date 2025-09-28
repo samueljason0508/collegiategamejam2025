@@ -198,7 +198,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fdcac9e86a35245d39ceadecda9055d9, type: 3}
+  m_Sprite: {fileID: -615633464, guid: 83f0e1465c83f4141a962490ea81448e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -293,7 +293,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fdcac9e86a35245d39ceadecda9055d9, type: 3}
+  m_Sprite: {fileID: -615633464, guid: 83f0e1465c83f4141a962490ea81448e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -657,7 +657,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fdcac9e86a35245d39ceadecda9055d9, type: 3}
+  m_Sprite: {fileID: -615633464, guid: 83f0e1465c83f4141a962490ea81448e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -752,7 +752,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fdcac9e86a35245d39ceadecda9055d9, type: 3}
+  m_Sprite: {fileID: -615633464, guid: 83f0e1465c83f4141a962490ea81448e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1945,9 +1945,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpiderOnClick
   player: {fileID: 1997978396}
   rocketPrefab: {fileID: 909007475}
-  rocketSpeed: 10
   splatPrefab: {fileID: 1922020564}
+  rocketSpeed: 10
   lifetime: 3
+  pointsToAdd: 10
+  prefix: 'Points: '
+  scoreText: {fileID: 0}
 --- !u!114 &1777981814
 MonoBehaviour:
   m_ObjectHideFlags: 0
